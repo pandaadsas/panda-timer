@@ -1,0 +1,20 @@
+# 构建产物
+android/build/
+android/*.apk
+android/*.apk.idsig
+
+# 签名密钥，绝不入库
+android/keystore.jks
+*.jks
+*.keystore
+
+# 个人配置
+windows/config.json
+
+# Python
+__pycache__/
+*.py[cod]
+
+# 系统
+.DS_Store
+Thumbs.db
