@@ -1,0 +1,8 @@
+# 源码统一 LF，避免跨平台换行符错乱
+* text=auto eol=lf
+
+# Windows 批处理必须是 CRLF，否则 cmd 解析异常
+*.bat text eol=crlf
+
+# Shell 脚本必须是 LF，否则 Linux/macOS 下报 bad interpreter
+*.sh text eol=lf
